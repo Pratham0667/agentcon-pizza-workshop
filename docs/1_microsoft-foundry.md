@@ -24,7 +24,7 @@ In this section, you will set up the Microsoft Foundry resource and deploy your 
    | **Subscription:** | Select the subscription provided for this workshop |  
    | **Resource group:** | Click `Create new` and give your resource group a descriptive name, e.g. `pizza_workshop-RG` |  
    | **Name:** | Enter a unique name, e.g. `pizza-foundry-resource-7yud` |  
-   | **Region:** | Select **West US** (⚠️ Do not select another region) |  
+   | **Region:** | Choose **East US** or **Sweden Central** |  
    | **Project Name:** | `Pizza-Workshop` |  
 
    ![](/public/foundry/002.png)  
@@ -41,28 +41,28 @@ In this section, you will set up the Microsoft Foundry resource and deploy your 
 5. **Open Microsoft Foundry**  
    - Navigate to [AI.Azure.com](https://ai.azure.com).  
    - You should now see the Microsoft Foundry projects linked to your subscription.  
-   ![](/public/foundry/003.png)  
-   - Click on your project, e.g. **Pizza-Workshop**.  
+   ![](/public/foundry/new/003.png)  
+   - Click the toggle **"New Foundry"** to enable the New Foundry interface
+   ![](/public/foundry/new/003-1.png)  
 
 ---
 
+
 6. **Deploy a base model**  
-   - In the project, go to **Model + endpoints**.  
-   ![](/public/foundry/004.png)  
-   - Click **Deploy model** → **Deploy base model**.  
-   ![](/public/foundry/005.png)  
-   - Select the model **gpt-4o** and click **Confirm**.  
-   ![](/public/foundry/006.png)  
-   - Leave all other settings at their defaults and click **Deploy**.  
-   ![](/public/foundry/007.png)  
+   - In the project, go to **Build** > **Models** and click **Deploy a base model**.  
+   ![](/public/foundry/new/004.png)  
+   - Search for **gpt-4o** and click the model in the search results
+   ![](/public/foundry/new/006.png)  
+   - Click **Deploy** and click **Default Setting**
+   ![](/public/foundry/new/007.png)  
 
    This will make the model available in your project for use by your agents.  
 
 ---
 
 7. **Test the model**  
-   - Once deployment is complete, click **Open in Playground**.  
-   ![](/public/foundry/008.png)  
+   - Once deployment is complete, it redirects to the **Model Playground**.  
+   ![](/public/foundry/new/008.png)  
    - In the chat window, type:  
 
      ```
